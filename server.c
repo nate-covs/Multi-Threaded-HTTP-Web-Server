@@ -1,5 +1,4 @@
 #include "helper.h"
-// #include "helper.c"
 
 #include <stdio.h>
 #include <unistd.h>
