@@ -69,8 +69,11 @@ GET /index.html HTTP/1.1
 🧹 Cleaning Up
 
 To gracefully stop the server, press Ctrl+C.
+
 The server will:
+
 -Ensure all threads release their resources
+
 -Close all active connections
 
 -Free allocated memory 
