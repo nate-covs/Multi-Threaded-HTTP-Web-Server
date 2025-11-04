@@ -31,7 +31,9 @@ Supported file extensions:
 ⚙️ Building the Server
 
 To build the server, run the following command in the project directory:
+
 gcc server.c helper.c -o server -pthread
+
 This will create an executable named server.
 
 -----------------------------------------------------------------------------------------------------------------------------------
@@ -41,6 +43,7 @@ This will create an executable named server.
 The server requires one argument: the port number on which it should listen.
 
 Example usage:
+
 ./server <port>
 
 -----------------------------------------------------------------------------------------------------------------------------------
@@ -48,12 +51,17 @@ Example usage:
 🌐 Testing the Server
 
 You can test the server using any modern web browser.
+
 Navigate to:
+
 http://localhost:<port>
+
 The server will serve files from the www/ directory.
 
 You can also connect with net cat and then make an http request like:
-nc localhost <port>
+
+nc localhost <port> 
+
 GET /index.html HTTP/1.1
 
 -----------------------------------------------------------------------------------------------------------------------------------
