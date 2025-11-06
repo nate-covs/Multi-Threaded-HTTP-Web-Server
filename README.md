@@ -44,7 +44,7 @@ The server requires one argument: the port number on which it should listen.
 
 Example usage:
 
-./server <port>
+./server < port >
 
 -----------------------------------------------------------------------------------------------------------------------------------
 
